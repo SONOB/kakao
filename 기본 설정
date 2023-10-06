@@ -10,8 +10,6 @@ Kakao Developers로 이동해 기존에 가지고 있던 카카오 아이디로 
 
 좌측의 카카오 로그인항목에 들어가서 활성화 설정의 상태를 ON으로 바꿔줍니다.
 하단의 Redirect URI등록(Rest API를 사용하려면 필수로 설정해 줘야함)에서 https://example.com/oauth라는 사이트로 등록해줍니다.
-![image](https://github.com/SONOB/kakao/assets/118358452/088256a5-c9d6-4fe8-80a5-b723d3766c0b)
-
 
 이제 하단의 사이트주소에서 {REST_API_KEY}부분을 본인의 Rest API키로 {REDIRECT_URI} 부분을 https://example.com/oauth이 주소로 변경해 접속합니다.
 https://kauth.kakao.com/oauth/authorize?client_id={REST_API_KEY}&redirect_uri={REDIRECT_URI}&response_type=code
