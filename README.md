@@ -1,4 +1,4 @@
-# kakao
+# kakao(Python)
 
 Python코드로 카카오톡으로 메시지를 전송하는 코드입니다.
 
